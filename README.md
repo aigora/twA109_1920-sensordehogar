@@ -11,5 +11,9 @@ Aprender a utilizar el Arduino y a conocer su lenguaje de programación en C, ll
 # SENSORES Y ACTUADORES
 dos sensores ultra sonidos unidos a un servomotor. según el sensor que detecte la presencia de un objeto o persona, el servomotor se moverá hacia el lado opuesto, es decir, hacia el lado del sensor que no ha detectado nada. Unido a ello tenemos un sensor de aparcamiento con leds y una alerta sonora. Ésta incrementa su tono, su frecuencia de parpadeo. También aumenta a la vez el número de leds encendidos (hasta 4, los cuales se encienden de manera progresiva) hasta la posición final. En la cual se quedan TODOS los leds encendidos de forma fija en conjunto con la alerta sonora la cual ahora suena sin interrupción.
 
+para la temperatura usaremos un sensor de temperatura y humedad DHT11.
+
+el resto de actuadores así como las funciones se encuentran mejor distribuidos en el apartado projects, justo encima de este documento.
+
 # CONCLUSIONES
 la plataforma abierta que es arduino da muchísima libertad a la hora de programar cualquier automatismo y darle un enfoque práctico a cualquier programa que hagamos en clase. Gracias a trabajos así podemos observar que la diferencia entre dos programas aparentemente tan diferentes no es tan abismal como podría parecer en un principio. 
