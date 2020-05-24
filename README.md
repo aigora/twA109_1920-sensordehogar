@@ -14,7 +14,11 @@ Este pin solo se podría utilizar en interiores.
 Tiene 4 pin( 2 de alimentacion y uno de datos) el otro no valdría.
 La temperatura que mediría sería entre -40 y 125 grados y requiere un voltaje de 3 a 5.5 V
 
-
+ULTRASONIDOS
+4 patas, dos para alimentacion, las otras 2:
+ECHO-emite pulsos mediante subidas y bajadas de tension, programadas por el usuario
+TRIG-se activa cuando el pulso vuelve al sensor tras rebotar en un objeto,
+mediante la función "pulseIn" sabemos cuanto ha tardado el pulso desde su emisión hasta su regreso. Así podemos calcular la distancia
 
 OTROS ACTUADORES
 DIODOS- los leds, les entra corriente en un solo sentido
@@ -27,6 +31,7 @@ BUZZER-alerta sonora, funcionamiento parecido al led, se modifica su sonido y la
 
 PANTALLA LCD-una pantalla por la cual mediante funciones y librerías específicas podemos modificar su contraste y los datos que imprimimos en ella.
 
+# FUNCIONES Y LIBRERIAS
 
 # CONCLUSIONES
 la plataforma abierta que es arduino da muchísima libertad a la hora de programar cualquier automatismo y darle un enfoque práctico a cualquier programa que hagamos en clase. Gracias a trabajos así podemos observar que la diferencia entre dos programas aparentemente tan diferentes no es tan abismal como podría parecer en un principio. 
