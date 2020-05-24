@@ -9,14 +9,12 @@ Intentaremos replicar algunos ejemplos de lo que podría ser la domótica en cas
 Aprender a utilizar el Arduino y a conocer su lenguaje de programación en C, llevar a cabo un programa de automatización aplicable a algún aspecto de la vida cotidiana. 
 
 # SENSORES Y ACTUADORES
-TEMPERATURA: 
-un sensor de temperatura, a partir de cierta temperatura se activará un motor eléctrico que nos imaginamos que pertenece a un ventilador
-para la temperatura usaremos un sensor de temperatura y humedad DHT11.
+Sensor DHT22: en un unico pin nos mostrará la temperatura en celsius.
+Este pin solo se podría utilizar en interiores.
+Tiene 4 pin( 2 de alimentacion y uno de datos) el otro no valdría.
+La temperatura que mediría sería entre -40 y 125 grados y requiere un voltaje de 3 a 5.5 V
 
-GARAJE:
-tres sensores ultra sonidos. Dos unidos a un servomotor. el servomotor se posicionará según una distancia umbral que nosotros colocaremos. Cuando se activa 1 de ellos la puerta se abre (el servo se mueve a un lado) y permanecerá abierta hasta que los dos sensores vuelvan a no detectar nada, entonces se cerrará (el servo vuelve a su posición original)
-Para la ayuda de aparcamiento, usaremos el sensor restante que, estableciendo unos rangos de distancias, iremos encendiendo leds (hasta tener los 4), haciendoles parpadear a mayores frecuencias (aumento por cada led encendido). Lo mismo para el buzzer, irá variando el pitch del sonido así como la frecuencia de los pitidos (ambas aumentan a medida que se enciende un nuevo led) El final consistirá en los cuatro leds encendidos sin parpadear y el altavoz sonando de manera continua
-la frecuencia de parpadeo de los leds siempre irá acompañada de la de los pitidos del speaker
+
 
 OTROS ACTUADORES
 DIODOS- los leds, les entra corriente en un solo sentido
