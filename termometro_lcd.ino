@@ -1,10 +1,5 @@
 #include <Adafruit_ADXL343.h>
-
-
-
 #include <LiquidCrystal.h>
-
-
 #include<DHT.h>
 int temp, humedad;
 const int SENSOR=2;
